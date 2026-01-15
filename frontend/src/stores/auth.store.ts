@@ -28,7 +28,7 @@ const initialState = {
 
 export const useAuthStore = create<AuthStore>()(
     persist(
-        (set, get) => ({
+        (set) => ({
             ...initialState,
 
             setUser: (user) => set({ user }),

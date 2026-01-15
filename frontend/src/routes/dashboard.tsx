@@ -48,11 +48,11 @@ function DashboardLayout() {
     }
 
     const navItems = [
-        { label: 'Overview', icon: LayoutDashboard, href: '/dashboard' }, // Using /dashboard to map to the index of _dashboard
-        { label: 'Expenses', icon: CreditCard, href: '/expenses' },
-        { label: 'Subscriptions', icon: Repeat, href: '/subscriptions' },
-        { label: 'Groups', icon: Users, href: '/groups' },
-        { label: 'Settings', icon: Settings, href: '/settings' },
+        { label: 'Overview', icon: LayoutDashboard, href: '/dashboard' },
+        { label: 'Expenses', icon: CreditCard, href: '/dashboard/expenses' },
+        { label: 'Subscriptions', icon: Repeat, href: '/dashboard/subscriptions' },
+        { label: 'Groups', icon: Users, href: '/dashboard/groups' },
+        { label: 'Settings', icon: Settings, href: '/dashboard/settings' },
     ]
 
     const SidebarContent = () => (

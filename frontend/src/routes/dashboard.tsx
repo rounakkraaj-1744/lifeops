@@ -16,7 +16,7 @@ import {
 } from 'lucide-react'
 import { toast } from 'sonner'
 
-export const Route = createFileRoute('/_dashboard')({
+export const Route = createFileRoute('/dashboard')({
     beforeLoad: () => {
         // We can't easily access the store here in beforeLoad without importing the store instance directly
         // But the store hooks work in component. For route protection, we might rely on the 

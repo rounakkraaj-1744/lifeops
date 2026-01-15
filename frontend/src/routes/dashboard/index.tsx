@@ -10,7 +10,7 @@ import {
     Receipt
 } from 'lucide-react'
 
-export const Route = createFileRoute('/_dashboard/')({
+export const Route = createFileRoute('/dashboard/')({
     component: DashboardHome,
 })
 

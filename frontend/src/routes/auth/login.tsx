@@ -66,7 +66,7 @@ function LoginPage() {
         try {
             await signIn.social({
                 provider: "google",
-                callbackURL: "/auth/success",
+                callbackURL: window.location.origin + "/auth/success",
             });
         } catch {
             setError("Google sign-in failed. Please try again.");
